@@ -14,3 +14,12 @@ module.exports = function (req, res, next) {
     })
   }
 }
+
+// if (decoded) {
+//   if (decoded.role === 'admin') {
+//     next()
+//   }
+//   if (decoded.role === 'user') {
+//     res.send('you are not allowed')
+//   }
+// }

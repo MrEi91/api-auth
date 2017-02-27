@@ -10,6 +10,7 @@ var users = require('./routes/users')
 var signUp = require('./routes/sign-up')
 
 const verifyJWT = require('./helper/verifyJWT')
+
 var app = express()
 
 // view engine setup

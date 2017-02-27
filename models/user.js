@@ -23,7 +23,8 @@ module.exports = function (sequelize, DataTypes) {
       }
     },
     password_hash: DataTypes.STRING,
-    salt: DataTypes.STRING
+    salt: DataTypes.STRING,
+    role: DataTypes.STRING
   }, {
     classMethods: {
       associate: function (models) {
