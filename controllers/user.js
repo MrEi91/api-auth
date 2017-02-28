@@ -7,7 +7,7 @@ module.exports = {
 
   signUp: function (req, res) {
     models.User.create(req.body).then(function (users) {
-      res.redirect('http://localhost:3000/api/home')
+      res.send(users)
     })
   },
 
